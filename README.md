@@ -1,5 +1,6 @@
 # TMVOS
 TMVOS
+=
 
 ![image](model.png)  
   
@@ -9,14 +10,16 @@ TMVOS
       
       
 Master
+=
 
 --model  
+-------------
 
 Model, including TMVOS model (MPS) and residual network (RESNET)  
 
 
 --src  
-
+-------------
 config : Parameter setting  
 
 dataset_utils: dataset  
@@ -32,13 +35,14 @@ plot_tSNE: dimension reduction and visualization
     
 
 Use  
+=
 
 Training：  
-
+--------
 python main.py  
 
 
 Evaluation:  
-
+--------
 python output_result.py  
 
