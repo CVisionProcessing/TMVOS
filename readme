@@ -1,0 +1,19 @@
+TMVOS
+--model
+模型，包括了TMVOS的模型（MPS），与残差网络（resnet）
+--src
+config :超参数设置
+dataset_utils: 数据集
+main ：主程序
+output_result： 测试程序
+plot_tSNE: embedding 降维与可视化
+utils
+
+
+使用：
+Training：
+python main.py
+
+Evaluation:
+python output_result.py
+
