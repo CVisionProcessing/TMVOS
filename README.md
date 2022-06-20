@@ -14,7 +14,7 @@ Master
 --model  
 -------------
 
-Model, including TMVOS model (MPS) and residual network (RESNET)  
+Model : including TMVOS model (MPS) and residual network (RESNET)  
 
 
 --src  
