@@ -73,13 +73,13 @@ Evaluation:
 python output_result.py  
 
 
-Model:
+Model and Training details
 --------
-We provide trained models (https://drive.google.com/drive/folders/1bweLk5CNnHB6E8KC-CpxyNm6eEGM__fZ?usp=sharing)
+The trained model is available at https://drive.google.com/drive/folders/1bweLk5CNnHB6E8KC-CpxyNm6eEGM__fZ?usp=sharing
 
 
-The test results of this model on davis-2017：
+The training of the proposed TMVOS contains two stages: i) pre-training on MS COCO and ii) fine-tuning on the training set of DAVIS-2017. In the first stage, the previous frame’s mask and the first frame of training samples are synthesized from the static images following the practices in MSK and Lucid Dreaming. We pre-train the proposed model on the synthesized dataset for 3 epochs with the learning rate of 10−5. In the second stage, the first and current frames are randomly selected from a video, while the previous frame’s mask is selected from the masks near the target frame (i.e., we choose the maximum interval as three). We fine-tune the model on the samples of DAVIS2017 by choosing the learning rate as 10−6. All the experiments mentioned above minimize the cross-entropy loss by using Adam optimizer and are trained on a workstation equipped with an NVIDIA Titan XP.
 
 
-![image](result2.png)
+
 
