@@ -12,7 +12,7 @@ Some video segmentation results:
     
       
 # Cite
-Please cite our paper when you use this dataset. For more details about this paper, please refer to our paper "TMVOS: Triplet Matching for Efficient Video Object Segmentation" (https://www.sciencedirect.com/science/article/pii/S0923596522000947)
+Please cite our paper when you use our model and code. For more details about this paper, please refer to our paper "TMVOS: Triplet Matching for Efficient Video Object Segmentation" at https://www.sciencedirect.com/science/article/pii/S0923596522000947
 
 [Plain Text]
 -------------
