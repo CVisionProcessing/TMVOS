@@ -73,7 +73,7 @@ Evaluation:
 python output_result.py  
 
 
-Model and Training details
+Model and Training details:
 --------
 The trained model is available at https://drive.google.com/drive/folders/1bweLk5CNnHB6E8KC-CpxyNm6eEGM__fZ?usp=sharing
 
