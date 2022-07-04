@@ -8,7 +8,7 @@
 Some video segmentation results:
 
 
-![image](result.png)
+![image](result1.png)
     
       
 # Cite
